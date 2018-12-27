@@ -1,0 +1,37 @@
+%%%%%%%%%%%%
+% Packages %
+%%%%%%%%%%%%
+
+\usepackage{amssymb} % For cmark & xmark
+\usepackage{balance} % for balanced last page
+\usepackage[noend,ruled]{algorithm2e} % For algorithms
+\usepackage{color} % For colored text
+\usepackage{fancyvrb} % For boxed verbatim blocks
+\usepackage{graphicx} % For import pdf as figures
+\usepackage{pifont} % For cmark & xmark
+\usepackage{subfigure} % For multi-subfigures in a figure
+\usepackage{url} % For url links
+\usepackage{xspace} % For smart spacing in new command
+
+%%%%%%%%%%%%
+% Commands %
+%%%%%%%%%%%%
+
+% For section symbol
+\newcommand{\secref}[1]{\S\ref{#1}}
+% For cmark & xmark
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+% For highlight changes
+\newcommand{\hlight}[1]{\textcolor{blue}{#1}}
+% For keyword in algorithms
+\SetKwRepeat{Do}{do}{while}
+
+%%%%%%%%%%
+% Macros %
+%%%%%%%%%%
+
+% For system name
+\newcommand{\mysys}{\textit{MySystem}\xspace}
+% For new terms
+\newcommand{\my}[1]{\textit{#1}}
